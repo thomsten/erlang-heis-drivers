@@ -1,0 +1,12 @@
+{'src/*', [debug_info,
+           {i, "src"},
+           {i, "include"},
+           {outdir, "ebin"}]}.
+{'lib/elev/*', [debug_info,
+           {i, "lib/elev/"},
+           {i, "include"},
+           {outdir, "ebin"}]}.
+{'lib/pinger/*', [debug_info,
+           {i, "lib/pinger/"},
+           {i, "include"},
+           {outdir, "ebin"}]}.
